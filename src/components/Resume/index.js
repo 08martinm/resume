@@ -1,20 +1,20 @@
 import React from 'react';
-import styles from './styles.css';
+import styles from './styles.scss';
 import PropTypes from 'prop-types';
 import Utility from '../Utility';
-import WorkItem from './Resume_Utils.js';
+import Tools from './Resume_Utils.js';
 
 const Resume = props => {
+  // ['Skills', 'terminal', 'work'], ['Interests', 'thumbs-up', 'work'],
   const sections = [
-    ['About', 'user', 'work'], ['Work Experience', 'briefcase', 'work'], 
-    ['Personal Projects', 'code', 'work'], ['Volunteer Work', 'heart', 'work'], 
-    ['Skills', 'terminal', 'work'], ['Education', 'mortar-board', 'work'], ['Interests', 'thumbs-up', 'work'],
+    ['About', 'user', 'basics'], ['Work Experience', 'briefcase', 'work'], 
+    ['Open-Source Projects', 'code', 'project'], ['Volunteer Work', 'heart', 'volunteer'], 
+    ['Education', 'mortar-board', 'education'],
   ];
 
   return (
     <div className={styles.resume}>
-      {sections.map(val => 
-        <Section key={val[0]} title={val[0]} icon={'fa-' + val[1]} content={props[val[2]]} listItem={WorkItem}/>)}
+      {sections.map(val => <Section key={val[0]} info={val} content={props[val[2]]} />)}
     </div>
   );
 };
@@ -28,22 +28,27 @@ Resume.propTypes = {
   skills: PropTypes.array.isRequired,
 };
 
-const Section = props => (
-  <div className={styles['section-header']}>
-    <Utility.Icon type={[props.icon, styles.large]} />
-    <span className={styles['section-title']}>{props.title.toUpperCase()}</span>
-    <Utility.Divider />
-    {props.content.map((val, i) => {
-      const JSXTag = props.listItem;
-      return <JSXTag {...val} key={i} />;
-    })}
-  </div>
-);
+const Section = props => {
+  const JSXTag = Tools[props.info[2]];
+  return (
+    <div className={styles['section-header']}>
+      <Utility.Icon type={['fa-' + props.info[1], styles.large]} />
+      <span className={styles['section-title']}>{props.info[0].toUpperCase()}</span>
+      <Utility.Divider />
+      {props.info[2] == 'basics' ?
+        <JSXTag summary={props.content.summary} /> :
+        props.content.map((val, i) => <JSXTag {...val} key={i} />)
+      }
+    </div>
+  );
+};
 
 Section.propTypes = {
-  content: PropTypes.array.isRequired,
-  title: PropTypes.string,
-  icon: PropTypes.string.isRequired,
+  content: PropTypes.oneOfType([
+    PropTypes.object,
+    PropTypes.array,
+  ]),
+  info: PropTypes.array,
   listItem: PropTypes.func,
 };
 

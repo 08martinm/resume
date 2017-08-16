@@ -1,0 +1,42 @@
+@import '../../colors';
+
+.resume {
+  background-color: $white;
+  border-radius: 10px;
+  color: $black;
+  display: inline-block;
+  font-family: $body-font;
+  font-size: 0.9em;
+  margin: 1em;
+  padding: 0 1em;
+  text-align: center;
+  width: 550px;
+}
+
+.section-header {
+  color: $dark-gray;
+  margin: 0;
+  text-align: left;
+}
+
+.section-title {
+  display: inline-block;
+  font-size: 1.1em;
+}
+
+.line {
+  display: block;
+}
+
+.large {
+  font-size: 1.6em;
+}
+
+.item-title {
+  display: block;
+  margin: 0.3em 0;
+}
+
+.item {
+  margin: 1em 0;
+}

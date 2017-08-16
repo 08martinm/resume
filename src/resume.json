@@ -47,6 +47,58 @@
       "highlights": []
     }
   ],
+  "project": [
+    {
+      "group": "Blockchain Blog",
+      "position": "Software Developer",
+      "website": "",
+      "startDate": "2017-07-01",
+      "endDate": "Present",
+      "summary": "A learning forum for those interested in blockchain development",
+      "highlights": [],
+      "keywords": []
+    },
+    {
+      "group": "EtherList",
+      "position": "Software Developer, Scrum Master",
+      "website": "",
+      "startDate": "2016-05-01",
+      "endDate": "2016-10-01",
+      "summary": "Product and services listing site with integration into EtherRep's reputation management API",
+      "highlights": [],
+      "keywords": []
+    },
+    {
+      "group": "EtherRep",
+      "position": "Software Developer, Team Lead",
+      "website": "",
+      "startDate": "2016-05-01",
+      "endDate": "2016-10-01",
+      "summary": "Cross-platform, blockchain-based reputation management",
+      "highlights": [],
+      "keywords": []
+    },
+    {
+      "group": "TrendWave",
+      "position": "Software Developer",
+      "website": "",
+      "startDate": "2016-06-15",
+      "endDate": "2016-08-01",
+      "summary": "News and social media sentiment analysis",
+      "highlights": [],
+      "keywords": []
+    },
+    {
+      "group": "Dayplan",
+      "position": "Software Developer, Scrum Master",
+      "website": "",
+      "startDate": "2016-05-01",
+      "endDate": "2016-08-01",
+      "summary": "Intuitive, one-stop itinerary creator",
+      "highlights": [],
+      "keywords": []
+    }
+  ],
   "volunteer": [{
     "organization": "Google Computer Science First",
     "position": "Teacher",
@@ -63,6 +115,15 @@
       "studyType": "CFA",
       "startDate": "2012-12-01",
       "endDate": "2015-06-01",
+      "gpa": "",
+      "courses": []
+    },
+    {
+      "institution": "Hack Reactor",
+      "area": "Computer Science",
+      "studyType": "Immersion Program",
+      "startDate": "2016-05-01",
+      "endDate": "2016-08-01",
       "gpa": "",
       "courses": []
     },
@@ -118,6 +179,10 @@
   "interests": [
     {
       "name": "Mountain-Climbing",
+      "keywords": []
+    },
+    {
+      "name": "Trail-Running",
       "keywords": []
     }
   ],
