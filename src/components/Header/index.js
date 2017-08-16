@@ -2,35 +2,45 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styles from './styles.scss';
 import Utility from '../Utility.js';
+import HeadShot from '../../../public/HeadShot.jpg';
 
 const Header = props => {
   return (
-    <div className={styles.container}>
+    <div className={styles.fixed}>
+      <div className={styles.container}>
+        <img className={styles['head-shot']} src={HeadShot} alt={'My face'} />
+        <h1 className={styles.name}>{props.basics.name + ', CFA'}</h1>
+        <h3 className={styles.title}>{props.basics.label}</h3>
 
-      <img />
-      <h1 className={styles.name}>{props.basics.name + ', CFA'}</h1>
-      <h3 className={styles.title}>{props.basics.label}</h3>
+        <Utility.Divider />
 
-      <Utility.Divider />
+        <div className={styles.line}>
+          <Utility.Icon type={['fa-globe', styles.gray]} />
+          {props.basics.location.city + ', ' + props.basics.location.region + ', ' + props.basics.location.countryCode}
+        </div>
+        <div className={styles.line}>
+          <a className={styles.link} href='mailto:08martinm@gmail.com?Subject=Employment%20Inquiry'>
+            <Utility.Icon type={['fa-envelope', styles.gray]} />
+            {props.basics.email}
+          </a>
+        </div>
 
-      <div className={styles.line}>
-        <Utility.Icon type={['fa-globe', styles.gray]} />
-        {props.basics.location.city + ', ' + props.basics.location.region + ', ' + props.basics.location.countryCode}
+        <Utility.Divider />
+
+        <a href='https://github.com/08martinm/'><Utility.Icon type={['fa-github', styles.large]} /></a>
+        <a href='https://linkedin.com/in/08martinm/'><Utility.Icon type={['fa-linkedin-square', styles.large]} /></a>
+
+        <Utility.Divider />
+
+        <p>I built this site using React, CSS Modules, SASS, PostCSS, custom Webpack development and build configurations, and 
+          the <a className={styles.link} href='https://jsonresume.org/schema/'>JSON Resume Schema</a>.
+          To view the code-base, please visit my <a className={styles.link} href='https://github.com/08martinm/resume'>Github repo here</a>.
+          <br />
+          <br />
+          I am currently searching for new career opportunities. If you are an employer interested in my work, please feel free to contact me.
+        </p>
+
       </div>
-      <div className={styles.line}>
-        <Utility.Icon type={['fa-envelope', styles.gray]} />
-        {props.basics.email}
-      </div>
-
-      <Utility.Divider />
-
-      <Utility.Icon type={['fa-github', styles.large]} />
-      <Utility.Icon type={['fa-linkedin-square', styles.large]} />
-
-      <Utility.Divider />
-
-      <p>{props.basics.summary}</p>
-
     </div>
   );
 };

@@ -4,7 +4,7 @@ import styles from './styles.scss';
 
 const Work = props => (
   <div className={styles.item}>
-    <h3 className={styles['item-title']}>{props.position + ', ' + props.company}</h3>
+    <h3 className={styles['item-title']}>{props.company + ', ' + props.position }</h3>
     <h5 className={styles['item-title']}>{props.startDate + ' - ' + props.endDate}</h5>
     <span>{props.summary}</span>
   </div>
@@ -28,7 +28,7 @@ About.propTypes = {summary: PropTypes.string.isRequired};
 
 const Project = props => (
   <div className={styles.item}>
-    <h3 className={styles['item-title']}>{props.position + ', ' + props.group}</h3>
+    <h3 className={styles['item-title']}>{props.group + ', ' + props.position }</h3>
     <h5 className={styles['item-title']}>{props.startDate + ' - ' + props.endDate}</h5>
     <span>{props.summary}</span>
   </div>
@@ -44,7 +44,7 @@ Project.propTypes = {
 
 const Volunteer = props => (
   <div className={styles.item}>
-    <h3 className={styles['item-title']}>{props.position + ', ' + props.organization}</h3>
+    <h3 className={styles['item-title']}>{props.organization + ', ' + props.position }</h3>
     <h5 className={styles['item-title']}>{props.startDate + ' - ' + props.endDate}</h5>
     <span>{props.summary}</span>
   </div>

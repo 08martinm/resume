@@ -50,7 +50,7 @@
   "project": [
     {
       "group": "Blockchain Blog",
-      "position": "Software Developer",
+      "position": "Lead Software Developer",
       "website": "",
       "startDate": "2017-07-01",
       "endDate": "Present",
@@ -60,7 +60,7 @@
     },
     {
       "group": "EtherList",
-      "position": "Software Developer, Scrum Master",
+      "position": "Software Developer & Scrum Master",
       "website": "",
       "startDate": "2016-05-01",
       "endDate": "2016-10-01",
@@ -70,7 +70,7 @@
     },
     {
       "group": "EtherRep",
-      "position": "Software Developer, Team Lead",
+      "position": "Software Developer & Team Lead",
       "website": "",
       "startDate": "2016-05-01",
       "endDate": "2016-10-01",
@@ -90,7 +90,7 @@
     },
     {
       "group": "Dayplan",
-      "position": "Software Developer, Scrum Master",
+      "position": "Software Developer & Scrum Master",
       "website": "",
       "startDate": "2016-05-01",
       "endDate": "2016-08-01",
@@ -110,20 +110,20 @@
   }],
   "education": [
     {
+      "institution": "Hack Reactor",
+      "area": "Software Immersion Program",
+      "studyType": "Immersion Program",
+      "startDate": "2016-05-01",
+      "endDate": "2016-08-01",
+      "gpa": "",
+      "courses": []
+    },
+    {
       "institution": "Chartered Financial Analyst Institute",
       "area": "Finance",
       "studyType": "CFA",
       "startDate": "2012-12-01",
       "endDate": "2015-06-01",
-      "gpa": "",
-      "courses": []
-    },
-    {
-      "institution": "Hack Reactor",
-      "area": "Computer Science",
-      "studyType": "Immersion Program",
-      "startDate": "2016-05-01",
-      "endDate": "2016-08-01",
       "gpa": "",
       "courses": []
     },
