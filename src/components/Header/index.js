@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import styles from './styles.scss';
 import Utility from '../Utility.js';
 import HeadShot from '../../../public/HeadShot.jpg';
+import Email_Address from '../../../public/email_address.png';
 
 const Header = props => {
   return (
@@ -19,10 +20,8 @@ const Header = props => {
           {props.basics.location.city + ', ' + props.basics.location.region + ', ' + props.basics.location.countryCode}
         </div>
         <div className={styles.line}>
-          <a className={styles.link} href='mailto:08martinm@gmail.com?Subject=Employment%20Inquiry'>
-            <Utility.Icon type={['fa-envelope', styles.gray]} />
-            {props.basics.email}
-          </a>
+          <Utility.Icon type={['fa-envelope', styles.gray]} />
+          <img className={styles.email} src={Email_Address} />
         </div>
 
         <Utility.Divider />
