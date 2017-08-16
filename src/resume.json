@@ -140,31 +140,33 @@
   "awards": ["Cum Laude"],
   "publications": [],
   "skills": [
-    {
-      "name": "Front End Development",
-      "level": "Master",
-      "keywords": [
-        "HTML",
-        "CSS",
-        "Javascript",
-        "ES2016",
-        "Typescript",
-        "Meteor",
-        "React",
-        "SASS",
-        "LESS",
-        "Webpack",
-        "Babel",
-        "Bootstrap",
-        "Semantic UI",
-        "Node",
-        "Git",
-        "MySQL",
-        "MongoDB",
-        "PostgreSQL",
-        "Express"
-      ]
-    }
+    {"name": "Full Stack Development", "level": "Master", "keywords": []},
+    {"name": "HTML", "level": "Master", "keywords": []},
+    {"name": "CSS", "level": "Master", "keywords": []},
+    {"name": "Javascript", "level": "Master", "keywords": []},
+    {"name": "ES2016", "level": "Master", "keywords": []},
+    {"name": "Typescript", "level": "Master", "keywords": []},
+    {"name": "React", "level": "Master", "keywords": []},
+    {"name": "Redux", "level": "Master", "keywords": []},
+    {"name": "Angular", "level": "Master", "keywords": []},
+    {"name": "Backbone", "level": "Master", "keywords": []},
+    {"name": "CSS Modules", "level": "Master", "keywords": []},
+    {"name": "SASS", "level": "Master", "keywords": []},
+    {"name": "LESS", "level": "Master", "keywords": []},
+    {"name": "Stylus", "level": "Master", "keywords": []},
+    {"name": "Webpack", "level": "Master", "keywords": []},
+    {"name": "Babel", "level": "Master", "keywords": []},
+    {"name": "Bootstrap", "level": "Master", "keywords": []},
+    {"name": "Node", "level": "Master", "keywords": []},
+    {"name": "Git", "level": "Master", "keywords": []},
+    {"name": "MySQL", "level": "Master", "keywords": []},
+    {"name": "MongoDB", "level": "Master", "keywords": []},
+    {"name": "PostgreSQL", "level": "Master", "keywords": []},
+    {"name": "Express", "level": "Master", "keywords": []},
+    {"name": "Finance", "level": "Master", "keywords": []},
+    {"name": "Regression Analysis", "level": "Master", "keywords": []},
+    {"name": "Data Science", "level": "Master", "keywords": []},
+    {"name": "Financial Modeling", "level": "Master", "keywords": []}
   ],
   "languages": [
     {
@@ -177,14 +179,14 @@
     }
   ],
   "interests": [
-    {
-      "name": "Mountain-Climbing",
-      "keywords": []
-    },
-    {
-      "name": "Trail-Running",
-      "keywords": []
-    }
+    {"name": "Mountain-Climbing", "keywords": []},
+    {"name": "Trail-Running", "keywords": []},
+    {"name": "Lawn care", "keywords": []},
+    {"name": "Cooking", "keywords": []},
+    {"name": "Backpacking", "keywords": []},
+    {"name": "Blockchain", "keywords": []},
+    {"name": "Blogging", "keywords": []},
+    {"name": "Travel", "keywords": []}
   ],
   "references": []
 }

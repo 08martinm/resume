@@ -40,3 +40,17 @@
 .item {
   margin: 1em 0;
 }
+
+.skill {
+  background-color: RGB(20, 240, 20);
+  border-radius: 8%;
+  color: $black;
+  display: inline-block;
+  margin: 0.3em;
+  padding: 0.2em;
+}
+
+.interest {
+  display: inline-block;
+  margin: 0.5em 1em;
+}
