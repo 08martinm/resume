@@ -1,0 +1,46 @@
+@import '../../colors';
+
+.container {
+  background-color: $white;
+  border-radius: 10px;
+  color: $black;
+  display: inline-block;
+  font-family: $body-font;
+  font-size: 0.9em;
+  margin: 1em;
+  padding: 1em;
+  text-align: center;
+  width: 350px;
+}
+
+.name {
+  font-family: $title-font;
+  font-size: 2em;
+  line-height: 1em;
+}
+
+.icon {
+  display: inline-block;
+  margin: 0.5em;
+}
+
+.line {
+  display: block;
+}
+
+.divider {
+  border-bottom: rgba(0, 0, 0, 0.15) 1px solid;
+}
+
+.large {
+  font-size: 2em;
+}
+
+.gray {
+  color: $dark-gray;
+}
+
+.title {
+  color: $dark-gray;
+  font-size: 1.2em;
+}

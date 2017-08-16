@@ -1,0 +1,125 @@
+{
+  "basics": {
+    "name": "Matthew Martin",
+    "label": "Software Developer",
+    "picture": "./profilePhoto.jpg",
+    "email": "08martinm@gmail.com",
+    "phone": "214-458-4457",
+    "website": "http://freaksauce.com",
+    "summary": "I have spent my career exploring the intersection of finance and technology. Between automating multivariate regression analyses to increase the accuracy and efficiency of damages assessments of class-action, securities-fraud litigation cases, building user-friendly interfaces and RESTful APIs to allow users to interact via the Ethereum blockchain, and earning the CFA designation along with mastering linear and object-oriented programming languages and frameworks, I am an intensely curious individual motivated by building tangible products that elicit discernible impacts.",
+    "location": {
+      "address": "1337 Orange Ave",
+      "postalCode": "94701",
+      "city": "Bay Area",
+      "countryCode": "USA",
+      "region": "CA"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "08martinm",
+        "url": ""
+      },
+      {
+        "network": "Github",
+        "username": "08martinm",
+        "url": ""
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Stanford Consulting Group",
+      "position": "Software Developer & Financial Analyst",
+      "website": "http://scginc.com",
+      "startDate": "2014-07-01",
+      "endDate": "Present",
+      "summary": "I am currently working as a financial software developer building regression analysis automation utilizing Thomson Reuters Eikon and Bloomberg APIs, Excel VBA, and SAS.",
+      "highlights": []
+    },
+    {
+      "company": "The J.P. Morgan Private Bank",
+      "position": "Hedge Fund Principals Analyst",
+      "website": "",
+      "startDate": "2012-08-01",
+      "endDate": "2014-04-01",
+      "summary": "As a banking analyst, I was responsible for coordinating team- and company-resources to effectively service the Ultra-High-Net-Worth client division's investment and banking needs.",
+      "highlights": []
+    }
+  ],
+  "volunteer": [{
+    "organization": "Google Computer Science First",
+    "position": "Teacher",
+    "website": "https://www.cs-first.com/en/home",
+    "startDate": "2015-12-01",
+    "endDate": "2017-05-01",
+    "summary": "I taught 4th-graders at the Boy's and Girl's Club of Redwood City twice weekly the core concepts of programming using Scratch, a visual programming language developed by the MIT Media Lab.",
+    "highlights": []
+  }],
+  "education": [
+    {
+      "institution": "Chartered Financial Analyst Institute",
+      "area": "Finance",
+      "studyType": "CFA",
+      "startDate": "2012-12-01",
+      "endDate": "2015-06-01",
+      "gpa": "",
+      "courses": []
+    },
+    {
+      "institution": "Davidson College",
+      "area": "Liberal Arts",
+      "studyType": "B.A.",
+      "startDate": "2008-05-01",
+      "endDate": "2012-05-01",
+      "gpa": "3.5",
+      "courses": []
+    }
+  ],
+  "awards": ["Cum Laude"],
+  "publications": [],
+  "skills": [
+    {
+      "name": "Front End Development",
+      "level": "Master",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "Javascript",
+        "ES2016",
+        "Typescript",
+        "Meteor",
+        "React",
+        "SASS",
+        "LESS",
+        "Webpack",
+        "Babel",
+        "Bootstrap",
+        "Semantic UI",
+        "Node",
+        "Git",
+        "MySQL",
+        "MongoDB",
+        "PostgreSQL",
+        "Express"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "Spanish",
+      "fluency": "Proficient speaker"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Mountain-Climbing",
+      "keywords": []
+    }
+  ],
+  "references": []
+}
