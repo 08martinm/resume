@@ -6,8 +6,8 @@ import Tools from './Resume_Utils.js';
 
 const Resume = props => {
   const sections = [
-    ['About', 'user', 'basics'], ['Work Experience', 'briefcase', 'work'], 
-    ['Open-Source Projects', 'code', 'project'], ['Volunteer Work', 'heart', 'volunteer'], 
+    ['About', 'user', 'basics'], ['Open-Source Projects', 'code', 'project'],
+    ['Work Experience', 'briefcase', 'work'], ['Volunteer Work', 'heart', 'volunteer'], 
     ['Education', 'mortar-board', 'education'], ['Skills', 'terminal', 'skills'], ['Interests', 'thumbs-up', 'interests'],
   ];
 

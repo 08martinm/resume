@@ -36,7 +36,7 @@ const Header = props => {
           To view the code-base, please visit my <a className={styles.link} href='https://github.com/08martinm/resume'>Github repo here</a>.
           <br />
           <br />
-          I am currently searching for new career opportunities. If you are an employer interested in my work, please feel free to contact me.
+          I am currently searching for new career opportunities. If you are an employer interested in my work, please feel free to contact me via email.
         </p>
 
       </div>

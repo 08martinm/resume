@@ -6,7 +6,7 @@
     "email": "08martinm@gmail.com",
     "phone": "214-458-4457",
     "website": "http://freaksauce.com",
-    "summary": "I have spent my career exploring the intersection of finance and technology. Between automating multivariate regression analyses to increase the accuracy and efficiency of damages assessments of class-action, securities-fraud litigation cases, building user-friendly interfaces and RESTful APIs to allow users to interact via the Ethereum blockchain, and earning the CFA designation along with mastering linear and object-oriented programming languages and frameworks, I am an intensely curious individual motivated by building tangible products that elicit discernible impacts.",
+    "summary": "I have spent my career exploring the intersection of finance and technology. Between automating multivariate regression analyses to increase the accuracy and efficiency for damages assessments of class-action, securities-fraud litigation cases, building user-friendly interfaces and RESTful APIs to allow users to interact via the Ethereum blockchain, earning the CFA designation, and mastering several object-oriented programming languages and frameworks, I have a track record for accomplishing challenging tasks. In short, I would describe myself as an intensely curious individual motivated by building tangible products that elicit discernible impacts.",
     "location": {
       "address": "1337 Orange Ave",
       "postalCode": "94701",
@@ -30,7 +30,7 @@
   "work": [
     {
       "company": "Stanford Consulting Group",
-      "position": "Software Developer & Financial Analyst",
+      "position": "Software Developer",
       "website": "http://scginc.com",
       "startDate": "2014-07-01",
       "endDate": "Present",
@@ -95,6 +95,16 @@
       "startDate": "2016-05-01",
       "endDate": "2016-08-01",
       "summary": "Intuitive, one-stop itinerary creator",
+      "highlights": [],
+      "keywords": []
+    },
+    {
+      "group": "JSON Resume",
+      "position": "Software Developer",
+      "website": "",
+      "startDate": "2017-07-01",
+      "endDate": "Present",
+      "summary": "Please excuse the meta",
       "highlights": [],
       "keywords": []
     }
