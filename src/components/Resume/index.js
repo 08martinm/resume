@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {Component} from 'react';
 import styles from './styles.scss';
 import PropTypes from 'prop-types';
 import Utility from '../Utility';
@@ -13,7 +13,7 @@ const Resume = props => {
 
   return (
     <div className={styles.resume}>
-      {sections.map(val => <Section key={val[0]} info={val} content={props[val[2]]} />)}
+      {sections.map(subArr => <Section key={subArr[0]} info={subArr} content={props[subArr[2]]} />)}
     </div>
   );
 };
@@ -27,20 +27,42 @@ Resume.propTypes = {
   skills: PropTypes.array.isRequired,
 };
 
-const Section = props => {
-  const JSXTag = Tools[props.info[2]];
-  return (
-    <div className={styles['section-header']}>
-      <Utility.Icon type={['fa-' + props.info[1], styles.large]} />
-      <span className={styles['section-title']}>{props.info[0].toUpperCase()}</span>
-      <Utility.Divider />
-      {props.info[2] == 'basics' ?
-        <JSXTag summary={props.content.summary} /> :
-        props.content.map((val, i) => <JSXTag {...val} key={i} />)
-      }
-    </div>
-  );
-};
+class Section extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {visible: true};
+    this.setState = this.setState.bind(this);
+  }
+
+  toggleVisibility() {
+    this.setState(prevState => {return {visible: !prevState.visible};});
+  }
+
+  render() {
+    const JSXTag = Tools[this.props.info[2]];
+    
+    let displayText = null;
+    if (this.state.visible) {
+      displayText = this.props.info[2] == 'basics' ?
+        <JSXTag summary={this.props.content.summary} /> :
+        this.props.content.map((val, i) => <JSXTag {...val} key={i} />);
+    }
+
+    let toggleIcon = <Utility.Icon type={[this.state.visible ? 'fa-minus' : 'fa-plus']}/>;
+
+    return (
+      <div className={styles['section-header']}>
+        <Utility.Icon type={['fa-' + this.props.info[1], styles.large]} />
+        <span className={styles['section-title']}>{this.props.info[0].toUpperCase()}</span>
+        <div className={styles['toggle-icon']} onClick={this.toggleVisibility.bind(this)}>
+          {toggleIcon}
+        </div>
+        <Utility.Divider />
+        {displayText}
+      </div>
+    );
+  }
+}
 
 Section.propTypes = {
   content: PropTypes.oneOfType([

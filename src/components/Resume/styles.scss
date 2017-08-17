@@ -54,3 +54,14 @@
   display: inline-block;
   margin: 0.5em 1em;
 }
+
+.toggle-icon {
+  display: inline-block;
+  float: right;
+  margin: 0.5em 1em 0 0;
+  overflow: hidden;
+}
+
+.toggle-icon:hover {
+  cursor: pointer;
+}
