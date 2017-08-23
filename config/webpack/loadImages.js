@@ -4,6 +4,6 @@ exports.loadImages = {
   test: /\.(png|svg|jpg|gif|woff)$/,
   use: [{
     loader: env ? 'url-loader' : 'file-loader',
-    options: {limit: 25000, name: './images/[hash].[ext]'},
+    options: {limit: 25000, name: './[hash].[ext]'},
   }],
 };
