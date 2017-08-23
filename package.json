@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
     "start:dev": "webpack-dev-server",
-    "start": "webpack",
+    "start": "webpack -p && node server/index.js",
     "lint:js": "eslint app/ webpack.*.js --cache"
   },
   "devDependencies": {
@@ -16,15 +16,17 @@
     "babel-preset-env": "^1.5.2",
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-2": "^6.24.1",
+    "body-parser": "^1.17.2",
     "classnames": "^2.2.5",
     "css-loader": "^0.28.4",
     "eslint": "^4.3.0",
     "eslint-loader": "^1.9.0",
     "eslint-plugin-react": "^7.1.0",
-    "express": "^4.15.3",
+    "express": "^4.15.4",
     "extract-text-webpack-plugin": "^2.1.2",
     "file-loader": "^0.11.2",
     "html-webpack-plugin": "^2.29.0",
+    "morgan": "^1.8.2",
     "node-sass": "^4.5.3",
     "path": "^0.12.7",
     "postcss-loader": "^2.0.6",
