@@ -60,7 +60,7 @@ Volunteer.propTypes = {
 
 const Education = props => (
   <div className={styles.item}>
-    <h3 className={styles['item-title']}>{props.institution + ' , ' + props.area}</h3>
+    <h3 className={styles['item-title']}>{props.institution + ', ' + props.area}</h3>
     <h5 className={styles['item-title']}>{props.startDate + ' - ' + props.endDate}</h5>
   </div>
 );
