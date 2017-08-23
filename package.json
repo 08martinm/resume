@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
     "start:dev": "webpack-dev-server",
-    "start": "webpack -p && node server/index.js",
+    "start": "node node_modules/webpack/bin/webpack.js -p && node server/index.js",
     "lint:js": "eslint app/ webpack.*.js --cache"
   },
   "devDependencies": {
