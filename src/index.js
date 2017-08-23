@@ -4,8 +4,6 @@ import App from './App';
 import { AppContainer } from 'react-hot-loader';
 import json from './resume.json';
 
-console.log(json);
-
 const render = App => {
   ReactDOM.render(
     <AppContainer>
