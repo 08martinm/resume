@@ -2,6 +2,7 @@ const bodyParser = require('body-parser');
 const express = require('express');
 const morgan = require('morgan');
 const port = process.env.PORT || 8080;
+console.log('port is', port);
 // var Sequelize = require('sequelize');
 // var db = new Sequelize('resume', 'user', '', {host: 'postgres', dialect: 'postgres'});
 
