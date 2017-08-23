@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
     "start:dev": "webpack-dev-server",
-    "start": "NODE_ENV=production webpack --config webpack.config.js && node server/index.js",
+    "start": "webpack --config webpack.config.js && node server/index.js",
     "lint:js": "eslint app/ webpack.*.js --cache"
   },
   "devDependencies": {
@@ -32,7 +32,6 @@
     "morgan": "^1.8.2",
     "node-sass": "^4.5.3",
     "path": "^0.12.7",
-    "pg": "^7.2.0",
     "postcss-loader": "^2.0.6",
     "precss": "^2.0.0",
     "purify-css": "^1.2.5",
@@ -40,9 +39,7 @@
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
     "react-hot-loader": "next",
-    "react-router-dom": "^4.1.1",
     "sass-loader": "^6.0.6",
-    "sequelize": "^4.7.1",
     "style-loader": "^0.18.2",
     "stylelint": "^8.0.0",
     "stylelint-config-sass-guidelines": "^3.1.0",
