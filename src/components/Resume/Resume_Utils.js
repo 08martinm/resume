@@ -72,7 +72,6 @@ Education.propTypes = {
   position: PropTypes.string.isRequired,
   startDate: PropTypes.string.isRequired,
   endDate: PropTypes.string.isRequired,
-  summary: PropTypes.string.isRequired,
 };
 
 const Skills = props => <div className={styles.skill}>{props.name}</div>;
