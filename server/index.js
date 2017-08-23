@@ -13,4 +13,4 @@ app.use(express.static(__dirname + '/../public'));
 
 
 db.sync({force: process.env.DROPTABLE})
-  .then(app.listen(port, () => {console.log('Server is listening on port', port);}));
+  .then(app.listen(port, '0.0.0.0', () => {console.log('Server is listening on port', port);}));
