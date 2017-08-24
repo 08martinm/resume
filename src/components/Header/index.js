@@ -2,8 +2,8 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styles from './styles.scss';
 import Utility from '../Utility.js';
-import HeadShot from '../../../public/HeadShot.jpg';
-import Email_Address from '../../../public/email_address.png';
+import HeadShot from '../../../public/images/HeadShot.jpg';
+import Email_Address from '../../../public/images/email_address.png';
 
 const Header = props => {
   return (

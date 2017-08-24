@@ -60,19 +60,16 @@ Volunteer.propTypes = {
 
 const Education = props => (
   <div className={styles.item}>
-    <h3 className={styles['item-title']}>{props.institution + ' , ' + props.area}</h3>
+    <h3 className={styles['item-title']}>{props.institution + ', ' + props.area}</h3>
     <h5 className={styles['item-title']}>{props.startDate + ' - ' + props.endDate}</h5>
-    <span>{props.summary}</span>
   </div>
 );
 
 Education.propTypes = {
   institution: PropTypes.string.isRequired,
   area: PropTypes.string.isRequired,
-  position: PropTypes.string.isRequired,
   startDate: PropTypes.string.isRequired,
   endDate: PropTypes.string.isRequired,
-  summary: PropTypes.string.isRequired,
 };
 
 const Skills = props => <div className={styles.skill}>{props.name}</div>;
