@@ -8,8 +8,7 @@
     "start": "webpack -p && node server/index.js",
     "lint:js": "eslint app/ webpack.*.js --cache"
   },
-  "devDependencies": {
-  },
+  "devDependencies": {},
   "dependencies": {
     "autoprefixer": "^7.1.2",
     "babel-core": "^6.25.0",

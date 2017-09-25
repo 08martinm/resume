@@ -28,7 +28,10 @@ About.propTypes = {summary: PropTypes.string.isRequired};
 
 const Project = props => (
   <div className={styles.item}>
-    <h3 className={styles['item-title']}>{props.group + ', ' + props.position }</h3>
+    {props.website.length > 0 ? 
+      <h3 className={styles['item-title']}><a href={props.website}>{props.group}</a>{', ' + props.position }</h3> :
+      <h3 className={styles['item-title']}>{props.group + ', ' + props.position }</h3>
+    }
     <h5 className={styles['item-title']}>{props.startDate + ' - ' + props.endDate}</h5>
     <span>{props.summary}</span>
   </div>
@@ -40,6 +43,7 @@ Project.propTypes = {
   startDate: PropTypes.string.isRequired,
   endDate: PropTypes.string.isRequired,
   summary: PropTypes.string.isRequired,
+  website: PropTypes.string.isRequired,
 };
 
 const Volunteer = props => (
