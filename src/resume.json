@@ -5,7 +5,7 @@
     "picture": "./profilePhoto.jpg",
     "email": "08martinm@gmail.com",
     "phone": "214-458-4457",
-    "website": "http://freaksauce.com",
+    "website": "http://www.matthewlmartin.com",
     "summary": "I have spent my career exploring the intersection of finance and technology. Between automating multivariate regression analyses to increase the accuracy and efficiency for damages assessments of class-action, securities-fraud litigation cases, building user-friendly interfaces and RESTful APIs to allow users to interact via the Ethereum blockchain, earning the CFA designation, and mastering several object-oriented programming languages and frameworks, I have a track record for accomplishing challenging tasks. In short, I would describe myself as an intensely curious individual motivated by building tangible products that elicit discernible impacts.",
     "location": {
       "address": "1337 Orange Ave",
@@ -40,7 +40,7 @@
     {
       "company": "The J.P. Morgan Private Bank",
       "position": "Hedge Fund Principals Analyst",
-      "website": "",
+      "website": "http://www.institutionalinvestor.com/Article/2907966/Where-the-money-is.html#.WckfbbKGNaQ",
       "startDate": "2012-08-01",
       "endDate": "2014-04-01",
       "summary": "As a banking analyst, I was responsible for coordinating team- and company-resources to effectively service the Ultra-High-Net-Worth client division's investment and banking needs.",
@@ -61,7 +61,7 @@
     {
       "group": "EtherList",
       "position": "Software Developer & Scrum Master",
-      "website": "",
+      "website": "https://github.com/EtherList/EtherList",
       "startDate": "2016-05-01",
       "endDate": "2016-10-01",
       "summary": "Product and services listing site with integration into EtherRep's reputation management API",
@@ -71,7 +71,7 @@
     {
       "group": "EtherRep",
       "position": "Software Developer & Team Lead",
-      "website": "",
+      "website": "https://github.com/EtherList/EtherRep",
       "startDate": "2016-05-01",
       "endDate": "2016-10-01",
       "summary": "Cross-platform, blockchain-based reputation management",
@@ -81,7 +81,7 @@
     {
       "group": "TrendWave",
       "position": "Software Developer",
-      "website": "",
+      "website": "https://github.com/comamocha/Trendwave",
       "startDate": "2016-06-15",
       "endDate": "2016-08-01",
       "summary": "News and social media sentiment analysis",
@@ -91,7 +91,7 @@
     {
       "group": "Dayplan",
       "position": "Software Developer & Scrum Master",
-      "website": "",
+      "website": "https://github.com/comamocha/DayPlan",
       "startDate": "2016-05-01",
       "endDate": "2016-08-01",
       "summary": "Intuitive, one-stop itinerary creator",
@@ -101,7 +101,7 @@
     {
       "group": "JSON Resume",
       "position": "Software Developer",
-      "website": "",
+      "website": "https://github.com/08martinm/resume",
       "startDate": "2017-07-01",
       "endDate": "Present",
       "summary": "Please excuse the meta",
@@ -120,21 +120,13 @@
   }],
   "education": [
     {
-      "institution": "Hack Reactor",
-      "area": "Software Immersion Program",
-      "studyType": "Immersion Program",
-      "startDate": "2016-05-01",
-      "endDate": "2016-08-01",
-      "gpa": "",
-      "courses": []
-    },
-    {
       "institution": "Chartered Financial Analyst Institute",
       "area": "Finance",
       "studyType": "CFA",
       "startDate": "2012-12-01",
       "endDate": "2015-06-01",
       "gpa": "",
+      "website": "https://www.cfainstitute.org/pages/index.aspx",
       "courses": []
     },
     {
@@ -144,6 +136,17 @@
       "startDate": "2008-05-01",
       "endDate": "2012-05-01",
       "gpa": "3.5",
+      "website": "http://www.davidson.edu/",
+      "courses": []
+    },
+    {
+      "institution": "Hack Reactor",
+      "area": "Software Immersion Program",
+      "studyType": "Immersion Program",
+      "startDate": "2016-05-01",
+      "endDate": "2016-08-01",
+      "gpa": "",
+      "website": "https://www.hackreactor.com/",
       "courses": []
     }
   ],

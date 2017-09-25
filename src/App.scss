@@ -18,10 +18,11 @@
 }
 
 a {
-  color: $black;
+  color: #0074d9;
   text-decoration: none;
 }
 
 a:hover {
-  color: lighten($black, 25%);
+  color: darken(#0074d9, 15%);
+  color: lighten($blue, 15%);
 }

@@ -4,7 +4,7 @@ import styles from './styles.scss';
 
 const Work = props => (
   <div className={styles.item}>
-    <h3 className={styles['item-title']}>{props.company + ', ' + props.position }</h3>
+    <h3 className={styles['item-title']}><a href={props.website}>{props.company}</a>{', ' + props.position}</h3>
     <h5 className={styles['item-title']}>{props.startDate + ' - ' + props.endDate}</h5>
     <span>{props.summary}</span>
   </div>
@@ -16,6 +16,7 @@ Work.propTypes = {
   startDate: PropTypes.string.isRequired,
   endDate: PropTypes.string.isRequired,
   summary: PropTypes.string.isRequired,
+  website: PropTypes.string.isRequired,
 };
 
 const About = props => (
@@ -48,7 +49,7 @@ Project.propTypes = {
 
 const Volunteer = props => (
   <div className={styles.item}>
-    <h3 className={styles['item-title']}>{props.organization + ', ' + props.position }</h3>
+    <h3 className={styles['item-title']}><a href={props.website}>{props.organization}</a>{', ' + props.position}</h3>
     <h5 className={styles['item-title']}>{props.startDate + ' - ' + props.endDate}</h5>
     <span>{props.summary}</span>
   </div>
@@ -60,11 +61,12 @@ Volunteer.propTypes = {
   startDate: PropTypes.string.isRequired,
   endDate: PropTypes.string.isRequired,
   summary: PropTypes.string.isRequired,
+  website: PropTypes.string.isRequired,
 };
 
 const Education = props => (
   <div className={styles.item}>
-    <h3 className={styles['item-title']}>{props.institution + ', ' + props.area}</h3>
+    <h3 className={styles['item-title']}><a href={props.website}>{props.institution}</a>{', ' + props.area}</h3>
     <h5 className={styles['item-title']}>{props.startDate + ' - ' + props.endDate}</h5>
   </div>
 );
@@ -74,6 +76,7 @@ Education.propTypes = {
   area: PropTypes.string.isRequired,
   startDate: PropTypes.string.isRequired,
   endDate: PropTypes.string.isRequired,
+  website: PropTypes.string.isRequired,
 };
 
 const Skills = props => <div className={styles.skill}>{props.name}</div>;

@@ -26,8 +26,8 @@ const Header = props => {
 
         <Utility.Divider />
 
-        <a href='https://github.com/08martinm/'><Utility.Icon type={['fa-github', styles.large]} /></a>
-        <a href='https://linkedin.com/in/08martinm/'><Utility.Icon type={['fa-linkedin-square', styles.large]} /></a>
+        <a href='https://github.com/08martinm/'><Utility.Icon type={['fa-github', styles.large, styles.iconlink]} /></a>
+        <a href='https://linkedin.com/in/08martinm/'><Utility.Icon type={['fa-linkedin-square', styles.large, styles.iconlink]} /></a>
 
         <Utility.Divider />
 
