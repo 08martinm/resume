@@ -138,16 +138,6 @@
       "gpa": "3.5",
       "website": "http://www.davidson.edu/",
       "courses": []
-    },
-    {
-      "institution": "Hack Reactor",
-      "area": "Software Immersion Program",
-      "studyType": "Immersion Program",
-      "startDate": "2016-05-01",
-      "endDate": "2016-08-01",
-      "gpa": "",
-      "website": "https://www.hackreactor.com/",
-      "courses": []
     }
   ],
   "awards": ["Cum Laude"],
