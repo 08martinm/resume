@@ -59,6 +59,16 @@
       "keywords": []
     },
     {
+      "group": "BingoByMatthew.com",
+      "position": "Lead Software Developer",
+      "website": "http://www.bingobymatthew.com",
+      "startDate": "2017-10-10",
+      "endDate": "Present",
+      "summary": "Play bingo with friends; boards update in real-time using Socket.io",
+      "highlights": [],
+      "keywords": []
+    },
+    {
       "group": "EtherList",
       "position": "Software Developer & Scrum Master",
       "website": "https://github.com/EtherList/EtherList",
