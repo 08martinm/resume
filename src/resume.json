@@ -6,7 +6,7 @@
     "email": "08martinm@gmail.com",
     "phone": "214-458-4457",
     "website": "http://www.matthewlmartin.com",
-    "summary": "I have spent my career exploring the intersection of finance and technology. Between automating multivariate regression analyses to increase the accuracy and efficiency for damages assessments of class-action, securities-fraud litigation cases, building user-friendly interfaces and RESTful APIs to allow users to interact via the Ethereum blockchain, earning the CFA designation, and mastering several object-oriented programming languages and frameworks, I have a track record for accomplishing challenging tasks. In short, I would describe myself as an intensely curious individual motivated by building tangible products that elicit discernible impacts.",
+    "summary": "I have spent my career exploring the intersection of finance and technology. Between working to popularize tokenization models, architecting Ethereum-based smart contracts, automating multivariate regression analyses of class-action, securities-fraud litigation cases, earning the CFA designation, and mastering several object-oriented programming languages and frameworks, I have a track record for accomplishing challenging tasks. In short, I would describe myself as an intensely curious individual motivated by building tangible products that elicit discernible impacts.",
     "location": {
       "address": "1337 Orange Ave",
       "postalCode": "94701",
@@ -29,11 +29,20 @@
   },
   "work": [
     {
+      "company": "Token Foundry",
+      "position": "Technical Product Manager & Software Engineer",
+      "website": "http://tokenfoundry.com",
+      "startDate": "2017-12-15",
+      "endDate": "Present",
+      "summary": "I lead the development efforts of Token Foundry's second platform aimed at facilitating blockchain-backed securities that are fully compliant with U.S. securities laws. We have acquired a broker-dealer, which will permit us in the coming months to issue smart-contract-equipped Regulation D private placements.",
+      "highlights": []
+    },
+    {
       "company": "Stanford Consulting Group",
       "position": "Software Developer",
       "website": "http://scginc.com",
       "startDate": "2014-07-01",
-      "endDate": "Present",
+      "endDate": "2017-12-15",
       "summary": "I am currently working as a financial software developer building regression analysis automation utilizing Thomson Reuters Eikon and Bloomberg APIs, Excel VBA, and SAS.",
       "highlights": []
     },
@@ -129,6 +138,26 @@
     "highlights": []
   }],
   "education": [
+    {
+      "institution": "ConsenSys Academy",
+      "area": "Blockchain Development",
+      "studyType": "Online",
+      "startDate": "2018-06-01",
+      "endDate": "2018-08-15",
+      "gpa": "",
+      "website": "https://consensys.net/academy/2018developer/",
+      "courses": []
+    },
+    {
+      "institution": "Hack Reactor",
+      "area": "Software Development",
+      "studyType": "Bootcamp",
+      "startDate": "2016-06-01",
+      "endDate": "2016-08-15",
+      "gpa": "",
+      "website": "https://www.hackreactor.com/",
+      "courses": []
+    },
     {
       "institution": "Chartered Financial Analyst Institute",
       "area": "Finance",
